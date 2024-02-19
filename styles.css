@@ -1,0 +1,42 @@
+html, body {
+  height: 99%;
+  margin: 0;
+}
+
+body {
+  background-image: url('img2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+canvas {
+  border: 1px solid white;
+  width: 400px;
+  height: 800px; 
+}
+
+body {
+  position: relative;
+}
+
+.exit-btn-container {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+button {
+  padding: 5px 20px; 
+  font-size: 1.1em; 
+  background-color: gray;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
